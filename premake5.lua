@@ -1,6 +1,7 @@
 project "ImGuiFD"
 	kind "StaticLib"
-	language "C++20"
+	language "C++"
+    cppdialect "C++20"
     staticruntime "off"
 
 	-- Enable multi-core compilation
