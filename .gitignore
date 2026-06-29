@@ -40,3 +40,10 @@ cmake_install.cmake
 # Ignore dependencies
 /dependencies/
 .vscode/
+
+# Build artifacts
+bin/
+bin-int/
+*.vcxproj
+*.vcxproj.filters
+premake5.lua
